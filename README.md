@@ -52,7 +52,34 @@ Emirates
 
 {"emailType":"BOOKING","dynamicData":{"customer":"Adam","PNR":"ABCDE","fltNo":"EK 543","passengers":[{"name":"Adam","seat":"21G"},{"name":"Maria","seat":"21F"}]}}
 
-# Response:
+# Response Payload
+```
+<html>
+<head></head>
+
+<body> 
+
+Dear Adam,
+
+Thank you for choosing Emirates. Your booking reference number is ABCDE, Flight No 543.
+
+<b>Flight details</b>
+
+
+<table><tr><th>Passenger Name</th><th>Seat</th></tr> 
+
+<tr><td>Adam</td><td>21G</td></tr> 
+<tr><td>Maria</td><td>21F</td></tr>
+
+</table> 
+
+
+Have a great flight..
+
+Emirates
+```
+
+# Response (HTML Preview):
 
 <html><head></head> 
 
@@ -60,7 +87,7 @@ Emirates
 
 Dear Adam,
 
-Thank you for choosing Emirates. Your booking reference number is ABCDE, Flight No EK 543..
+Thank you for choosing Emirates. Your booking reference number is ABCDE, Flight No EK 543.
 
 
 
