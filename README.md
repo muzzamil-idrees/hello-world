@@ -2,7 +2,7 @@
 
 Develop rest end-point to generate dynamic email content (body) as html string which can be send as email to Emirates customer.
 
-#Solution Detailing:
+# Solution Detailing:
 
 - System should maintain pre-defined HTML templates (embedded file in resource folder) for each type of emails.
 - System should expose rest end-point which will accept “Email Type” and Dynamic-Data payload.
@@ -10,7 +10,7 @@ Develop rest end-point to generate dynamic email content (body) as html string w
     - Pick proper templated based on given “Email Type”
     - Replace placeholder in template with attribute values of DynamicData object and return the string.
 
-#Samples:
+# Samples:
 
 HTML template:-
 
@@ -48,11 +48,11 @@ Emirates
 ```
 
 
-#Request Payload:
+# Request Payload:
 
 {"emailType":"BOOKING","dynamicData":{"customer":"Adam","PNR":"ABCDE","fltNo":"EK 543","passengers":[{"name":"Adam","seat":"21G"},{"name":"Maria","seat":"21F"}]}}
 
-#Response:
+# Response:
 
 <html><head></head> 
 
